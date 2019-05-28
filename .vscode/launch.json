@@ -7,6 +7,13 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Launch current file",
+            "program": "${file}",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch hello.js",
             "program": "${workspaceFolder}/ch1/hello.js",
             "envFile": "${workspaceFolder}/.env"
