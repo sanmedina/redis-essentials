@@ -18,6 +18,14 @@
             "program": "${workspaceFolder}/ch3/using-timeseries.js",
             "args": ["string"],
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch using-timeseries.js hash",
+            "program": "${workspaceFolder}/ch3/using-timeseries.js",
+            "args": ["hash"],
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
