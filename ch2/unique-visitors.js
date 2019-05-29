@@ -15,7 +15,7 @@ function count(dates) {
     });
 
     client.pfcount(keys, function(err, reply) {
-        console.log('Date', date.join(','), 'had', reply, 'visits');
+        console.log('Date', dates.join(','), 'had', reply, 'visits');
     });
 }
 
