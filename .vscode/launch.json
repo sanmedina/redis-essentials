@@ -14,15 +14,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch hello.js",
-            "program": "${workspaceFolder}/ch1/hello.js",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch articles-popularity.js",
-            "program": "${workspaceFolder}/ch1/articles-popularity.js",
+            "name": "Launch using-timeseries.js string",
+            "program": "${workspaceFolder}/ch3/using-timeseries.js",
+            "args": ["string"],
             "envFile": "${workspaceFolder}/.env"
         }
     ]
